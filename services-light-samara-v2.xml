@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<yml_catalog date="2026-01-17 10:30">
+  <shop>
+
+    <name><![CDATA[АТ Диагностика]]></name>
+    <company><![CDATA[АТ Диагностика]]></company>
+    <url><![CDATA[https://atdiagnostika.ru/]]></url>
+
+    <currencies>
+      <currency id="RUB" rate="1"/>
+    </currencies>
+
+    <categories>
+      <category id="1"><![CDATA[Автоэлектрик]]></category>
+    </categories>
+
+    <offers>
+      <offer id="atdiagnostika-samara" available="true">
+        <name><![CDATA[АТ Диагностика]]></name>
+        <url><![CDATA[https://atdiagnostika.ru/price_expert]]></url>
+
+        <price>6500</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>1</categoryId>
+
+        <params>
+          <param name="тип предложения">автоэлектрик</param>
+          <param name="конверсия">0.15</param>
+          <param name="регион">Самара</param>
+          <param name="годы опыта">12+</param>
+          <param name="рейтинг">5.0</param>
+          <param name="число отзывов">0</param>
+        </params>
+
+        <description><![CDATA[
+Экспертная диагностика сложных неисправностей автоэлектрики.
+Работа с плавающими ошибками, CAN-шиной, цепями питания.
+Определение точной причины без лишних работ.
+        ]]></description>
+
+      </offer>
+    </offers>
+
+  </shop>
+</yml_catalog>
