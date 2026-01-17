@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<yml_catalog date="2026-01-17 10:30">
+<yml-catalog date="2026-01-17 10:30">
   <shop>
-
     <name><![CDATA[АТ Диагностика]]></name>
     <company><![CDATA[АТ Диагностика]]></company>
     <url><![CDATA[https://atdiagnostika.ru/]]></url>
@@ -12,25 +11,24 @@
 
     <categories>
       <category id="1"><![CDATA[Автоэлектрик]]></category>
+      <!-- Добавьте другие категории, если нужно -->
     </categories>
 
-    <offers>
-      <offer id="atdiagnostika-samara" available="true">
-        <name><![CDATA[АТ Диагностика]]></name>
+    <services> <!-- Здесь используется <services>, а не <offers> -->
+      <service id="atdiagnostika-samara" available="true">
+        <name><![CDATA[Экспертная диагностика автоэлектрики в Самаре]]></name>
         <url><![CDATA[https://atdiagnostika.ru/price_expert]]></url>
-
         <price>6500</price>
         <currencyId>RUB</currencyId>
         <categoryId>1</categoryId>
 
-        <params>
-          <param name="тип предложения">автоэлектрик</param>
-          <param name="конверсия">0.15</param>
-          <param name="регион">Самара</param>
-          <param name="годы опыта">12+</param>
-          <param name="рейтинг">5.0</param>
-          <param name="число отзывов">0</param>
-        </params>
+        <!-- Обязательный элемент для привязки к местоположению -->
+        <geo>
+          <location>Самара</location>
+          <!-- Можно добавить координаты, если нужны: -->
+          <!-- <latitude>53.195063</latitude> -->
+          <!-- <longitude>50.106201</longitude> -->
+        </geo>
 
         <description><![CDATA[
 Экспертная диагностика сложных неисправностей автоэлектрики.
@@ -38,8 +36,13 @@
 Определение точной причины без лишних работ.
         ]]></description>
 
-      </offer>
-    </offers>
-
+        <!-- Параметры (опционально, но полезно) -->
+        <param name="Тип услуги">Диагностика</param>
+        <param name="Стаж работы">12+ лет</param>
+        <param name="Гарантия на работу">Да</param>
+        <!-- Рейтинг и отзывы лучше указывать на самой странице, а не в фиде -->
+      </service>
+      <!-- Вы можете добавить другие услуги как отдельные элементы <service> -->
+    </services>
   </shop>
-</yml_catalog>
+</yml-catalog>
