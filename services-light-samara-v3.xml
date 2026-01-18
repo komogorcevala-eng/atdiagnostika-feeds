@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<yml_catalog date="2026-01-17 10:30">
+  <shop>
+    <name>АТ Диагностика</name>
+    <company>АТ Диагностика</company>
+    <url>https://atdiagnostika.ru/</url>
+    <email>cosmi2019@yandex.ru</email> <!-- ДОБАВЬТЕ ВАШ EMAIL! -->
+
+    <currencies>
+      <currency id="RUR" rate="1"/> <!-- ИЗМЕНИЛ RUB на RUR -->
+    </currencies>
+
+    <categories>
+      <category id="13">Ремонт авто</category>
+    </categories>
+
+    <!-- ДОБАВИЛ ОБЯЗАТЕЛЬНЫЙ БЛОК SETS -->
+    <sets>
+      <set id="s1">
+        <name>Диагностика автоэлектрики в Самаре</name>
+        <url>https://atdiagnostika.ru/price_expert</url>
+      </set>
+    </sets>
+
+    <offers>
+      <offer id="atdiagnostika-complex-1" available="true">
+        <name>АТ Диагностика</name>
+        <url>https://atdiagnostika.ru/price_expert</url>
+        <price>6500</price>
+        <currencyId>RUR</currencyId> <!-- ИЗМЕНИЛ RUB на RUR -->
+        <sales_notes>за услугу</sales_notes> <!-- ДОБАВИЛ, КАК В ПРИМЕРЕ -->
+        <categoryId>13</categoryId>
+        <set-ids>s1</set-ids>
+        <picture>https://atdiagnostika-feeds.vercel.app/Black-and-White%20Minimalist-Initials-Logo.png</picture>
+        <description>Глубокая диагностика сложных и нестабильных неисправностей автоэлектрики: плавающие ошибки, проблемы CAN-шины, нестабильные цепи питания, ошибки ЭБУ без очевидной причины. Подходит для случаев, когда автомобиль уже проходил диагностику, но причина неисправности не была выявлена. Работа проводится в Самаре по предварительной записи.</description>
+        <adult>false</adult> <!-- ДОБАВИЛ ОБЯЗАТЕЛЬНЫЙ ТЕГ -->
+        <expiry>P1Y</expiry> <!-- ДОБАВИЛ ГАРАНТИЮ (1 год) -->
+
+        <!-- ОБЯЗАТЕЛЬНЫЕ ПАРАМЕТРЫ -->
+        <param name="Рейтинг">5.0</param>
+        <param name="Число отзывов">1</param>
+        <param name="Годы опыта">20</param>
+        <param name="Регион">Самара</param>
+        <param name="Конверсия">0.18</param>
+
+        <!-- КОНТАКТЫ -->
+        <param name="Ссылка на телефон">tel:+79288501025</param>
+        <param name="Ссылка на чат">https://t.me/at_service63</param>
+
+        <!-- ИНФОРМАЦИЯ ОБ ИСПОЛНИТЕЛЕ -->
+        <param name="Об исполнителе">Специализируюсь на диагностике сложных и нестабильных неисправностей автоэлектрики. Опыт работы с автоэлектрикой более 20 лет. Работаю с любыми марками авто вплоть до премиум сегмента (Mercedes, BMW, Audi, Porsche). Работаю с ситуациями, где стандартная диагностика и типовой ремонт не дали результата: плавающие ошибки, проблемы CAN-шины, нестабильные цепи питания, ошибки ЭБУ без очевидной причины. Провожу консультации, диагностику легковых автомобилей и выездную диагностику грузового транспорта. Моя задача — найти причину неисправности, а не просто заменить детали. Без навязывания лишних работ.</param>
+
+        <!-- ДОПОЛНИТЕЛЬНЫЕ ПАРАМЕТРЫ В ФОРМАТЕ "да"/"нет" -->
+        <param name="Исполнитель проверен">да</param>
+        <param name="Организация">да</param>
+        <param name="Выполняется по адресу заказчика">нет</param>
+        <param name="Выполняется по адресу исполнителя">да</param>
+        <param name="Выполняется удаленно">нет</param>
+        <param name="Бригада">нет</param>
+        <param name="Работа по договору">нет</param>
+        <param name="Наличный расчет">да</param>
+        <param name="Безналичный расчет">да</param>
+      </offer>
+    </offers>
+  </shop>
+</yml_catalog>
