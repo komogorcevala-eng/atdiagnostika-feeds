@@ -24,7 +24,7 @@
     <offers>
       <offer id="atdiagnostika-complex-1" available="true">
         <!-- ИЗМЕНЕНО: Название теперь чётко отражает суть и проблему -->
-        <name>Экспертная диагностика сложных неисправностей автоэлектрики в Самаре</name>
+        <name>АТ Диагностика</name>
         <url>https://atdiagnostika.ru/price_expert</url>
         <price>6500</price>
         <currencyId>RUR</currencyId>
