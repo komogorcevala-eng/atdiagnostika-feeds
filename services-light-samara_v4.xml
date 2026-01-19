@@ -4,7 +4,7 @@
     <name>Автоэлектрик в Самаре | Экспертная диагностика сложных неисправностей электрики</name>
     <company>АТ Диагностика</company>
     <url>https://atdiagnostika.ru/</url>
-    <email>ваш-email@example.com</email> <!-- ЗАМЕНИТЕ! -->
+    <email>cosmi2019@yandex.ru</email> <!-- ЗАМЕНИТЕ! -->
 
     <currencies>
       <currency id="RUR" rate="1"/>
@@ -84,4 +84,5 @@
       </offer>
     </offers>
   </shop>
+
 </yml_catalog>
